@@ -5,20 +5,21 @@ $('button').click(function() {
 	var i = $('input').val();
 	console.log(i);
 	switch(i) {
-		case 'yes':
+		case '1':
 			$('div').append('<p>some text</p>');
 			$('button').click(function() {
 				var i = $('input').val();
 				switch(i) {
 					case '1':
-					alert(123);
+						$('div').append('<p>some text3</p>');
 					break;
 					case '2':
+						$('div').append('<p>some text4</p>');
 					break;
 				}
 			});
 		break;
-		case 'no':
+		case '2':
 			$('div').append('<p>some text2</p>');
 		break;
 	}
