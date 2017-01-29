@@ -5,14 +5,18 @@ switch(vopros) {
 	vopros = prompt('Вопрос 2');
 	switch(vopros){
 		case '1':
-		console.log('ответ 3');
+			console.log('ответ 3');
 		break;
+
 		case '2':
-		console.log('ответ 4');
+			console.log('ответ 4');
 		break;
 	}
 	break;
+	
 	case '2':
-	console.log('ответ 2');
+		console.log('ответ 2');
 	break;
 }
+//ir_engine 1.0
+//2016
